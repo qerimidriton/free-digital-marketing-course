@@ -1,0 +1,523 @@
+.top_navbar {
+  background: #0000008a;
+  height: auto;
+  gap: 10px;
+
+  .nav_row {
+    align-items: center;
+    .logo_row {
+      align-items: center;
+      .img_custom {
+        display: block;
+        width: 60%;
+        height: auto;
+      }
+    }
+  }
+}
+
+#banner {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.39) 0%,
+      rgba(0, 0, 0, 0.39) 100%
+    ),
+    url(../images/hero_img.png) center center / cover no-repeat;
+
+  .banner_info {
+    text-align: center;
+    padding: 100px 0;
+    // height: 92vh;
+
+    h4 {
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 31.2px;
+
+      color: #00ff94;
+      border: 1px solid #ffffff38;
+      padding: 32px 8px;
+      border-radius: 100px;
+    }
+    h1 {
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 60px;
+      color: #8c6ee7;
+      padding: 50px 0;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28.8px;
+      color: #ffffff;
+    }
+
+    .info_event {
+      padding: 40px 0;
+      h3 {
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 26.4px;
+        text-align: center;
+        color: #00ff94;
+
+        span {
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 26.4px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// ----Course info
+
+#course_info {
+  margin: 50px 0;
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: center;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #8c6ee7;
+  }
+  .course_info_row {
+    margin: 20px 0;
+    padding: 60px 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    align-items: center;
+    h3 {
+      font-weight: 800;
+      color: #8c6ee7;
+    }
+    h4 {
+      color: #000000;
+      font-weight: 800;
+
+      span {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.8px;
+        text-align: left;
+        color: #454545;
+      }
+    }
+    .img_custom {
+      box-shadow: 13px 10px 0px 3px #00ff94;
+      border-radius: 16px;
+    }
+  }
+  .register_row {
+    justify-content: center;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 32px 64px -12px #00000024;
+    border-radius: 10px;
+    margin: 50px 200px;
+
+    &:after {
+      content: "";
+      display: flex;
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      box-shadow: 0px 23px 0px 0px #00ff94;
+      z-index: -1;
+    }
+    h1 {
+      padding: 40px 0 20px 0;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 28px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      color: #05123899;
+      padding: 10px 0;
+    }
+    .register_button {
+      width: 100%;
+    }
+    ::placeholder {
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: left;
+      color: #939393;
+    }
+    .register_button {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 18px;
+    }
+  }
+}
+
+// ----end of Course info
+
+// ---- BITE-CON Foundation
+
+#foundation {
+  padding: 60px 0;
+  margin: 100px 0;
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.2px;
+    text-align: center;
+    span {
+      color: #8c6ee7;
+    }
+  }
+  .foundation_row {
+    padding: 60px 0;
+    margin: 20px 0;
+    align-items: center;
+    h3 {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+      span {
+        font-weight: 700;
+      }
+    }
+    .img_custom {
+      box-shadow: 13px 10px 0px 3px #00ff94;
+      border-radius: 16px;
+    }
+  }
+  .foundation_row_box {
+    gap: 15px;
+  }
+  .foundation_box {
+    padding: 48px 40px;
+    gap: 40px;
+    border-radius: 16px;
+
+    border: 1px solid #05123833;
+    box-shadow: 0px 4px 30px 0px #6577831a;
+  }
+  .fa_custom_color {
+    color: #00ff94;
+    font-size: 35px;
+  }
+  h6 {
+    font-weight: 800;
+    line-height: 55px;
+  }
+  h3 {
+    span {
+      font-weight: 800;
+    }
+  }
+  p {
+    font-weight: 500;
+    line-height: 50px;
+    span {
+      line-height: 50px;
+      font-weight: 400;
+    }
+  }
+  .ul_padding {
+    padding-bottom: 245px;
+  }
+  ul {
+    padding-left: 0;
+    margin-top: 20px;
+    li {
+      list-style: none;
+      padding-left: 35px;
+      position: relative;
+      margin-bottom: 20px;
+      font-weight: 500;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 24px;
+        height: 24px;
+        background: url(../images/tick.png) no-repeat;
+        background-size: contain;
+        left: 0;
+        top: 0;
+      }
+      ul {
+        li {
+          &::after {
+            background: none;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+  .foundation_button {
+    background: #00ff94;
+
+    padding: 16px 32px 16px 32px;
+    width: 100%;
+    border-radius: 6px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: center;
+    color: #051238;
+  }
+  .foundation_p {
+    margin: 20px 0 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #8c6ee7;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+// ---- end of BITE-CON Foundation
+
+// ----  e-Book
+#e-book {
+  .e_book {
+    margin: 110px 0;
+    border-radius: 16px;
+    border: 1px solid #05123833;
+    box-shadow: 0px 4px 30px 0px #6577831a;
+    padding: 50px 100px;
+    .e_book_row {
+      align-items: center;
+
+      h1 {
+        text-transform: capitalize;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 43.2px;
+        text-align: center;
+
+        span {
+          color: #8c6ee7;
+        }
+      }
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: center;
+        span {
+          font-weight: 700;
+        }
+      }
+      .e_book_img {
+        border-radius: 16px;
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  .btn_modal_open {
+    width: 100%;
+  }
+
+  .btn_close_modal {
+    background: #051238;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    color: #00ff94;
+    opacity: 1;
+    font-weight: 700;
+    padding: 15px;
+    font-size: 18px;
+  }
+  .modal-header {
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28.8px;
+      letter-spacing: -0.012em;
+      text-align: left;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28.8px;
+      letter-spacing: -0.012em;
+      text-align: left;
+      color: #0059ff;
+    }
+  }
+
+  .modal-footer {
+    border: none;
+  }
+  .modal-header {
+    border: none;
+  }
+
+  .form-control {
+    padding: 10px 10px;
+  }
+  .btn_modal {
+    color: #000000;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.6000000238418579px;
+
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 6px;
+    background: #00ff94;
+  }
+}
+// ---- end of e-Book
+
+//---- Students Feedback
+#students_feedback {
+  margin: 60px 0px;
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .students_feedback_row {
+    gap: 15px;
+    .students_feedback_box {
+      border-radius: 16px;
+      box-shadow: 0px 4px 30px 0px #6577831a;
+      padding: 35px;
+      border: 1px solid #05123833;
+      display: flex;
+      flex-direction: column;
+
+      .students_feedback_box_text {
+        flex-grow: 1;
+      }
+
+      .students_feedback_box_stars {
+        padding: 20px 0;
+      }
+      .student_info {
+        display: flex;
+        gap: 5px;
+
+        h3 {
+          font-size: 16px;
+          font-weight: 800;
+          line-height: 16px;
+          letter-spacing: -0.6000000238418579px;
+          text-align: left;
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 16px;
+          letter-spacing: -0.6000000238418579px;
+          text-align: left;
+        }
+        .img_custom {
+          width: 75px;
+          height: 75px;
+        }
+      }
+    }
+  }
+}
+//---- end of Students Feedback
+
+//----  about us
+#about_us {
+  text-align: center;
+  margin: 100px 0 50px 0;
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.2px;
+  }
+  p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: #051238cc;
+  }
+  .about_us_row {
+    gap: 50px;
+    justify-content: center;
+    padding: 100px 0 50px 0;
+    .about_us_box {
+      box-shadow: 0px 4px 30px 0px #6577831a;
+      border: 1px solid #05123833;
+      border-radius: 16px;
+      padding: 30px;
+
+      h2 {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 30px;
+        padding: 25px 0;
+      }
+      .img_custom {
+        width: 70%;
+        padding: 50px;
+      }
+    }
+  }
+}
+//---- end of about us
+
+// ------ footer
+
+#top_footer {
+  background: #220b41;
+
+  height: auto;
+  gap: 10px;
+
+  .logo_row {
+    align-items: center;
+    .img_custom {
+      display: block;
+      width: 90%;
+      height: auto;
+    }
+  }
+}
+
+// ------ end of footer
